@@ -97,6 +97,7 @@ Then you may send requests:
 
     .. code:: python
 
+        from pyopensky.schema import FlightsData4, StateVectorsData4
         # flights from and to Zurich airport
         t_lszh = opensky.history(
             start="2024-03-15 09:00",
